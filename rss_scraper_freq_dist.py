@@ -14,5 +14,3 @@ fdist_rss = nltk.FreqDist(frequency_distribution_list)
 fdist_200 = fdist_rss.most_common(200)
 print("Name of frequency distrubution list: 'fdist_rss' \
 Name of most common 200 frequency distrubutions list: 'fdist_200'")
-
-#https://www.globalhungerindex.org/case-studies/rss.xml
