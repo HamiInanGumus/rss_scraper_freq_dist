@@ -1,6 +1,6 @@
 # This program creates frequency distribution list and most common 200
 # frequency distributions excluding punctuation and stopwords based on
-# nltk Freqqist method for all the entries combined from rss/atom feed
+# nltk FreqDist method for all the entries combined from rss/atom feed
 # by scraping the feed after the url for the feed is provided by the user.
 # It uses rss_scraper_freqdist_class and its method to calculate frequency
 # distribution which uses rss_scraper_tokenizedtext_class and its method to
