@@ -12,7 +12,7 @@ from rss_scraper_freqdist_class import *
 frequency_distribution_list = FreqDist.freq_dist()
 fdist_rss = nltk.FreqDist(frequency_distribution_list)
 fdist_200 = fdist_rss.most_common(200)
-result = print("Name of frequency distrubution list: 'fdist_rss' \
+print("Name of frequency distrubution list: 'fdist_rss' \
 Name of most common 200 frequency distrubutions list: 'fdist_200'")
 
 #https://www.globalhungerindex.org/case-studies/rss.xml
