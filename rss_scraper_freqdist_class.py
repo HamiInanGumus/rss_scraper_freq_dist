@@ -19,9 +19,6 @@ class FreqDist:
         tokenized_text = RssTokenizedText.tokenize()
         for x in range(len(tokenized_text)):
             article = tokenized_text[x]
-            for entry in article:
-                if entry.lower() not in stop_words:
-                    if entry not in punctuation:
-                        freq_dist_list.append(entry)
-                        freq_dist_list = freq_dist_list[:]
+            freq_dist_list = [entry for entry in article if entry.lower()
+            not in stop_words and entry not in punctuation]
         return freq_dist_list
